@@ -31,22 +31,7 @@ namespace InterfaceExercise
                 Console.ReadLine();
                 Console.Clear();
             }
-
             Console.WriteLine("Thanks for helping out! Bye");
-
-
-
-
         }
-
-        public bool HasTrunk { get; set; }
-
-        public int MaxMPHSpeed { get; set; }
-        public int NumOfWheels { get; set; }
-        public bool HasAC { get; set; }
-        public string HornSound { get; set; }
-        public string Color { get; set; }
-        public string Name { get; set; }
-        public int Employees { get; set; }
     }
 }
